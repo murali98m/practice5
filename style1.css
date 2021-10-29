@@ -1,0 +1,118 @@
+body{
+    background-color: grey;
+}
+.box1
+{
+    border: 5px solid rgb(207, 17, 17) ;
+    height: 90px;
+    width: 400px;
+    margin-left: 550px;
+    border-radius: 30px;
+    box-shadow: violet 4px 5px 2px;
+    background-color: white;
+    text-align: center;
+    text-shadow: 1px 1px rgb(199, 45, 199);
+    font-size: 20px;
+}
+.container
+{
+    border: 5px solid green ;
+    height: 480px;
+    width: 1110px; 
+    margin-left: 170px;
+}
+p
+{
+    text-align: center;
+    text-shadow: 1px 1px rgb(199, 45, 199);
+    font-size: 23px;
+}
+.box2
+{
+    border: 5px solid red ;
+    height: 180px;
+    width: 250px;
+    float: left;
+    margin: 100px;
+    box-shadow: violet 4px 5px 2px;
+    background-color: white;
+    text-align: center;
+} 
+#boxfix
+{
+    height: 80px;  
+    width: 400px;
+    position: fixed;
+    right: 32%;
+    bottom: 7%;
+    background-color: rgb(236, 222, 90);
+}
+#lefttop
+{
+    position: absolute;
+    left: 6%; 
+    top: 8%;
+}
+#righttop
+{
+    position: absolute;
+    right: 10%;
+    top: 8%;
+}
+#leftbottom
+{
+    position: absolute;
+    left: 6%;
+    bottom: 1%;
+}
+#rightbottom
+{
+    position: absolute;
+    right: 10%;
+    bottom: 1%;
+} 
+.container2
+{
+    border: 5px solid violet ;
+    height: 600px;
+    width: 900px; 
+    margin-left: 280px; 
+    text-align: center; 
+    background-color: green;
+    
+}
+.box3
+{
+    border: 5px solid red ;
+    height: 250px;
+    width: 350px;
+    top: 5%;
+    margin-left: 50px;
+    float: left;
+    margin-bottom: 10px;
+    background-color: rgb(236, 222, 90);
+}
+#downbox
+{
+    width: 760px;
+}
+m
+{
+    color: #fff;
+    /* padding: 10px; */
+    display: inline-block;
+    /* border-radius: 5px; */
+    animation: blinkingBackground 2s infinite;
+}
+@keyframes blinkingBackground{
+    0%		{ background-color: #10c018;}
+    25%		{ background-color: #1056c0;}
+    50%		{ background-color: #ef0a1a;}
+    75%		{ background-color: #254878;}
+    100%	        { background-color: #04a1d5;}
+}
+button
+{
+    background-color: red;
+    border-radius: 3px;
+}
